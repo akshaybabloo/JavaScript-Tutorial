@@ -46,7 +46,7 @@ Following are the issues:
 
 ### 2.1 Simple JavaScript
 
-See [2_1_Simple_JavaScript.html]()
+See [2_1_Simple_JavaScript.html](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_1_Simple_JavaScript.html)
 
 To write a JavaScript you would have to place it between
 
