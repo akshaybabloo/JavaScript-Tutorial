@@ -28,8 +28,8 @@ Following are the issues:
 
 2. What if some browsers can't interpret JavaScript like others do?
 
-  This was a problem when the JavaScript was developed in 1995. JavaScript was originally developed by Brendan Eich of Netscape to incorporate it in their web browser which is called Netscape 2. Later Microsoft developed its own JavaScriptedition called JScript which was only compatible with Internet Explorer.
+  This was a problem when the JavaScript was developed in 1995. JavaScript was originally developed by Brendan Eich of Netscape to incorporate it in their web browser which is called Netscape 2. Later Microsoft developed its JavaScript edition called JScript which was only compatible with Internet Explorer.
 
-  Fortunately, Netscape submitted JavaScript language to ECMA standards body to standardise the language in  1997. The standard edition of JavaScript is called ECMAScript.
+  Fortunately, Netscape submitted JavaScript language to ECMA standards body to standardise the language in  1997. The standard edition of JavaScript is called ECMAScript.  Currently the word JavaScript is owned by Mozilla.
 
   So this means the same code will run everywhere.
