@@ -1,6 +1,12 @@
 # JavaScript-Tutorial
 JavaScript Tutorial
 
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [1 Introduction](#1-introduction)
+	- [1.1 Issues](#11-issues)
+
+<!-- /TOC -->
 
 ## 1 Introduction
 
