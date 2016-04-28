@@ -6,6 +6,7 @@ JavaScript Tutorial
 - [1 Introduction](#1-introduction)
 	- [1.1 Issues](#11-issues)
 - [2 Lets Get Started](#2-lets-get-started)
+	- [2.1 Simple JavaScript](#21-simple-javascript)
 
 <!-- /TOC -->
 
@@ -41,3 +42,20 @@ Following are the issues:
 
 1. Text editor (I'm using [Atom](https://atom.io/))
 2. Web browser ([Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) preferred)
+
+
+### 2.1 Simple JavaScript
+
+See [2_1_Simple_JavaScript.html]()
+
+To write a JavaScript you would have to place it between
+
+```javascript
+<script>
+  alert("hello world");
+</script>
+```
+
+For now the placement is not important, we will discuss about this later. I have placed it in `body` tag.
+
+When you open the file you will get an alert as `hello world`.
