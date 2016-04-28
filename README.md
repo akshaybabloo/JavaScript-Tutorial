@@ -5,6 +5,7 @@ JavaScript Tutorial
 
 - [1 Introduction](#1-introduction)
 	- [1.1 Issues](#11-issues)
+- [2 Lets Get Started](#2-lets-get-started)
 
 <!-- /TOC -->
 
@@ -33,3 +34,10 @@ Following are the issues:
   Fortunately, Netscape submitted JavaScript language to ECMA standards body to standardise the language in  1997. The standard edition of JavaScript is called ECMAScript.  Currently the word JavaScript is owned by Mozilla.
 
   So this means the same code will run everywhere.
+
+## 2 Lets Get Started
+
+**Requirements**
+
+1. Text editor (I'm using [Atom](https://atom.io/))
+2. Web browser ([Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) preferred)
