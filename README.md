@@ -1,14 +1,7 @@
 # JavaScript-Tutorial
 JavaScript Tutorial
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [1 Introduction](#1-introduction)
-	- [1.1 Issues](#11-issues)
-- [2 Lets Get Started](#2-lets-get-started)
-	- [2.1 Simple JavaScript](#21-simple-javascript)
-
-<!-- /TOC -->
 
 ## 1 Introduction
 
@@ -18,7 +11,10 @@ Like HTML and CSS; JavaScript is a client side language. That means it is the br
 
 In this tutorial we will look into the class JavaScript that can be used to manipulate the web pages.
 
-You should understand that **`JavaScript ≠ Java`**
+**Things to Remember**
+
+1. **`JavaScript ≠ Java`** - JavaScript is not a light version of Java. Nope.
+2. JavaScript is case sensitive i.e. `a` is very much different from `A`
 
 ### 1.1 Issues
 
@@ -42,7 +38,7 @@ Following are the issues:
 
 1. Text editor (I'm using [Atom](https://atom.io/))
 2. Web browser ([Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) preferred)
-3. [Firebug](http://getfirebug.com/)
+3. [Firebug](http://getfirebug.com/) (Firebug is preinstalled in Firefox Developer Edition)
 
 
 ### 2.1 Simple JavaScript
@@ -60,3 +56,43 @@ To write a JavaScript you would have to place it between
 For now the placement is not important, we will discuss about this later. I have placed it in `body` tag.
 
 When you open the file you will get an alert as `hello world`.
+
+### 2.2 Structure of JavaScript
+
+* JavaScript is written as a statement with a semicolon in the end.
+
+  ```javascript
+  alert("hello world");
+  ```
+* This means that you can pull multiple statements in each line without any new line
+  ```javascript
+  alert("hello"); alert("world");
+  ```
+
+* JavaScript can do some guess work; that is you don't always have to put a `;` at the end. But **don't** do that, alway close the statement, this is because some browser guesses the code correctly and some don't.
+
+* JavaScript is whitespace insensitive that means your code can contain any number of spaces. For example:
+  ```javascript
+  alert("hello world");
+  alert(    "hello world"    );
+  alert("hello world"    );
+  alert(
+    "hello world"
+);
+  ```
+  The only time space matters are in between the double quotes
+  ```javascript
+  alert("hello      world")
+  ```
+  This will print out `hello      world` with five spaces.
+
+* You can add comments by putting two `//` before a sentence or a statement.
+  ```javascript
+  // This is a comment
+  alert("hello world");
+  ```
+  A block comment could be something like this:
+  ```javascript
+  /* this is
+  a block comment */
+  ```
