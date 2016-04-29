@@ -1,7 +1,15 @@
 # JavaScript-Tutorial
 JavaScript Tutorial
 
+<!-- MDTOC maxdepth:6 firsth1:2 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
+- [1 Introduction](#1-introduction)   
+   - [1.1 Issues](#11-issues)   
+- [2 Lets Get Started](#2-lets-get-started)   
+   - [2.1 Simple JavaScript](#21-simple-javascript)   
+   - [2.2 Structure of JavaScript](#22-structure-of-javascript)   
+
+<!-- /MDTOC -->
 
 ## 1 Introduction
 
