@@ -1,5 +1,5 @@
-# JavaScript-Tutorial
-JavaScript Tutorial
+# JavaScript Tutorial
+**Table of Content**
 
 <!-- MDTOC maxdepth:6 firsth1:2 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
