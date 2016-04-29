@@ -10,6 +10,8 @@
    - [2.2 Structure of JavaScript](#22-structure-of-javascript)   
    - [2.3 Position of the JavaScript Matters](#23-position-of-the-javascript-matters)   
    - [2.4 Where to Write JavaScript?](#24-where-to-write-javascript)   
+- [3 Syntax](#3-syntax)   
+   - [3.1 Variables](#31-variables)   
 
 <!-- /MDTOC -->
 
@@ -122,3 +124,51 @@ JavaScript can be written as an inline code or in a separate file ending with `j
 ```html
 <script src="FileName.js"></script>
 ```
+
+> Note 1: From here onwards if the JavaScript has more than five lines of code in it, I will separate it into HTML file and JS file.
+
+## 3 Syntax
+
+In this section we will see the full working of how JavaScript is written and used.
+
+### 3.1 Variables
+
+Variables are created using the keyword `var` then followed by a variable name. For example
+
+```javascript
+var firstName;
+```
+
+When you create a variable without any value then it is called an undefined variable, which means that there is a memory allocated to variable `firstName` without any contents.
+
+There are two ways to define content to the variable:
+
+```javascript
+var firstName;
+firstName = "akshay";
+
+var lastName = "gollahalli";
+```
+
+You can write multiple variables as the follow:
+
+```javascript
+// var firstName;
+// var lastName;
+var firstName, lastName;
+// or
+var hello = "world", brand = "Sony";
+```
+
+In JavaScript you don't have to give the data type like other languages. The same variable can be String, Integer or Boolean
+
+```javascript
+var someVariable;
+someVariable = 100;
+someVariable = "hello";
+someVariable = 'world'; // you can also have single quotes for a variable name.
+someVariable = true;
+someVariable = false;
+```
+
+Like I said previously JavaScript can do some guess work. When you are trying to initiate a variable you don't have to put the keyword `var`. If you don't put `var` JavaScript searches if the variable is initialised or not, if not the variable is initialised else the variables data is replaced. But I highly recommend **NOT** doing it.
