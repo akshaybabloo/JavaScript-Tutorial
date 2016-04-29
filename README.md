@@ -108,6 +108,6 @@ When you open the file you will get an alert as `hello world`.
 
 ### 2.3 Position of the JavaScript Matters
 
-See [2_3_1_Script_in_body.html](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_3_1_Script_in_body.html) and [2_3_2_Script_in_head.html](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_3_2_Script_in_head.html)
+See [2_3_1_Script_in_body.html](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_3_Position_Matters/2_3_1_Script_in_body.html) and [2_3_2_Script_in_head.html](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_3_Position_Matters/2_3_2_Script_in_head.html)
 
 The place where you put the `script` tag does matter. That means browser renders the code sequentially (top to bottom), so if you put the script in the `head` tag the script is first executed and waits for the user to press `ok` and then renders the page, this is opposite when the script is placed in the body. Try to open the two HTML files and see for yours self.
