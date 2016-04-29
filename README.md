@@ -15,6 +15,12 @@
 
 <!-- /MDTOC -->
 
+**License**
+
+The code is provided under [MIT License](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/LICENSE) and the tutorial is provided under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+![CC](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
 ## 1 Introduction
 
 JavaScript is a high-level programming language developed by Netscape (a subsidiary of AOL) for web and web browsers. JS syntax is derived from C programming language. In general JS itself does not have access to the system I/O i.e. file system, networking, etc. unless you are using a third party JS or if the web browser allows/supports it. So, JavaScript wasn't designed as a general purpose programming language, but it was designed to manipulate web pages.
