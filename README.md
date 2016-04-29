@@ -5,10 +5,11 @@ JavaScript Tutorial
 
 - [1 Introduction](#1-introduction)   
    - [1.1 Issues](#11-issues)   
-- [2 Lets Get Started](#2-lets-get-started)   
+- [2 Know More about JavaScript](#2-know-more-about-javascript)   
    - [2.1 Simple JavaScript](#21-simple-javascript)   
    - [2.2 Structure of JavaScript](#22-structure-of-javascript)   
    - [2.3 Position of the JavaScript Matters](#23-position-of-the-javascript-matters)   
+   - [2.4 Where to Write JavaScript?](#24-where-to-write-javascript)   
 
 <!-- /MDTOC -->
 
@@ -41,7 +42,7 @@ Following are the issues:
 
   So this means the same code will run everywhere.
 
-## 2 Lets Get Started
+## 2 Know More about JavaScript
 
 **Requirements**
 
@@ -111,3 +112,13 @@ When you open the file you will get an alert as `hello world`.
 See [2_3_1_Script_in_body.html](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_3_Position_Matters/2_3_1_Script_in_body.html) and [2_3_2_Script_in_head.html](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_3_Position_Matters/2_3_2_Script_in_head.html)
 
 The place where you put the `script` tag does matter. That means browser renders the code sequentially (top to bottom), so if you put the script in the `head` tag the script is first executed and waits for the user to press `ok` and then renders the page, this is opposite when the script is placed in the body. Try to open the two HTML files and see for yours self.
+
+### 2.4 Where to Write JavaScript?
+
+See [2_4_New_File_JS](https://github.com/akshaybabloo/JavaScript-Tutorial/blob/master/2_4_New_File_JS)
+
+JavaScript can be written as an inline code or in a separate file ending with `js`. But you have to import the js file into the HTML file. You can do this by using the following tag:
+
+```html
+<script src="FileName.js"></script>
+```
