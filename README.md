@@ -42,6 +42,7 @@ Following are the issues:
 
 1. Text editor (I'm using [Atom](https://atom.io/))
 2. Web browser ([Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) preferred)
+3. [Firebug](http://getfirebug.com/)
 
 
 ### 2.1 Simple JavaScript
